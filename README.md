@@ -15,7 +15,12 @@ npm run build:dev
 
 ```
 <script src="./dist/_performanceShow.js"></script>
-<script>
-    window._performanceShow && window._performanceShow.start('console');
-</script>
+```
+
+## 查看效果
+
+在console中输入
+
+```
+window._performanceShow && window._performanceShow.start('console');
 ```
