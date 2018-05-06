@@ -11,16 +11,21 @@
 npm run build:dev
 ```
 
-## 引入方式
+## 使用方式
 
+1. 打开console后刷新页面
+```
+<script src="./dist/_performanceShow.js"></script>
+<script type="text/javascript">
+    window._performanceShow && window._performanceShow.start('console');
+</script>
+```
+
+2. 或者只引入
 ```
 <script src="./dist/_performanceShow.js"></script>
 ```
-
-## 查看效果
-
-在console中输入
-
+然后在console中输入
 ```
 window._performanceShow && window._performanceShow.start('console');
 ```
